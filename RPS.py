@@ -10,7 +10,6 @@ while True:
     
     if user_pick == 'q':
         break
-
     if user_pick not in options:
         continue 
 
@@ -31,7 +30,6 @@ while True:
         
     print('Your score: ' + str(user_score))
     print('Computer score: ' + str(comp_score))
-
 
 print('Thanks for playing, see you next time!')
 print('Final score: You - ' + str(user_score) +', Computer - ' + str(comp_score))
