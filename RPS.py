@@ -50,6 +50,11 @@ while True:
         print('Your score: ' + str(user_score))
         print('Computer score: ' + str(comp_score))
 
+    if user_pick == comp_pick:
+        print('It was a tie!')
+        print('Your score: ' + str(user_score))
+        print('Computer score: ' + str(comp_score))
+
 
 print('Thanks for playing, see you next time!')
 print('Final score: You - ' + str(user_score) +', Computer - ' + str(comp_score))
